@@ -1,0 +1,43 @@
+COMMAND
+$ valgrind --leak-check=full --show-leak-kinds=all --num-callers=20 ./candykids 1 1 10
+
+
+==26332== Memcheck, a memory error detector
+==26332== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==26332== Using Valgrind-3.10.0 and LibVEX; rerun with -h for copyright info
+==26332== Command: ./candykids 1 1 10
+==26332== 
+Time  0s:
+	Factory 0 ship candy & wait 1s
+Time  1s:
+	Factory 0 ship candy & wait 2s
+Time  2s:
+Time  3s:
+	Factory 0 ship candy & wait 1s
+Time  4s:
+	Factory 0 ship candy & wait 0s
+	Factory 0 ship candy & wait 1s
+Time  5s:
+	Factory 0 ship candy & wait 2s
+Time  6s:
+Time  7s:
+	Factory 0 ship candy & wait 2s
+Time  8s:
+Time  9s:
+	Factory 0 ship candy & wait 0s
+	Factory 0 ship candy & wait 2s
+Stopping candy factories...
+Candy-factory 0 done
+Stopping kids.
+Statistics:
+  Factory#   #Made  #Eaten  Min Delay[ms]  Avg Delay[ms]  Max Delay[ms]
+         0       9       9        0.02393      223.72247     1001.00098
+==26332== 
+==26332== HEAP SUMMARY:
+==26332==     in use at exit: 0 bytes in 0 blocks
+==26332==   total heap usage: 17 allocs, 17 frees, 2,966 bytes allocated
+==26332== 
+==26332== All heap blocks were freed -- no leaks are possible
+==26332== 
+==26332== For counts of detected and suppressed errors, rerun with: -v
+==26332== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

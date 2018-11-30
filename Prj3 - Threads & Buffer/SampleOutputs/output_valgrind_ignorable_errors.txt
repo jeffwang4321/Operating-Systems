@@ -1,0 +1,174 @@
+COMMAND:
+$ valgrind --leak-check=full --show-leak-kinds=all --num-callers=20 ./candykids 10 1 10
+
+
+
+==26313== Memcheck, a memory error detector
+==26313== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==26313== Using Valgrind-3.10.0 and LibVEX; rerun with -h for copyright info
+==26313== Command: ./candykids 10 1 10
+==26313== 
+Time  0s:
+	Factory 3 ship candy & wait 1s
+	Factory 0 ship candy & wait 3s
+	Factory 8 ship candy & wait 2s
+	Factory 6 ship candy & wait 3s
+	Factory 4 ship candy & wait 3s
+	Factory 1 ship candy & wait 2s
+	Factory 9 ship candy & wait 1s
+	Factory 7 ship candy & wait 0s
+	Factory 2 ship candy & wait 3s
+	Factory 7 ship candy & wait 1s
+	Factory 5 ship candy & wait 1s
+Time  1s:
+	Factory 3 ship candy & wait 2s
+	Factory 9 ship candy & wait 3s
+	Factory 5 ship candy & wait 2s
+	Factory 7 ship candy & wait 0s
+	Factory 7 ship candy & wait 2s
+Time  2s:
+	Factory 1 ship candy & wait 1s
+	Factory 8 ship candy & wait 1s
+Time  3s:
+	Factory 0 ship candy & wait 0s
+	Factory 3 ship candy & wait 1s
+	Factory 6 ship candy & wait 3s
+	Factory 4 ship candy & wait 0s
+	Factory 2 ship candy & wait 2s
+	Factory 7 ship candy & wait 2s
+Time  4s:
+	Factory 9 ship candy & wait 3s
+	Factory 5 ship candy & wait 2s
+	Factory 1 ship candy & wait 3s
+	Factory 0 ship candy & wait 2s
+Time  5s:
+	Factory 8 ship candy & wait 0s
+Time  6s:
+	Factory 3 ship candy & wait 2s
+	Factory 4 ship candy & wait 0s
+	Factory 4 ship candy & wait 0s
+Time  7s:
+Time  8s:
+Time  9s:
+	Factory 2 ship candy & wait 3s
+	Factory 7 ship candy & wait 0s
+Stopping candy factories...
+Candy-factory 9 done
+Candy-factory 5 done
+Candy-factory 8 done
+Candy-factory 1 done
+Candy-factory 0 done
+Candy-factory 4 done
+Candy-factory 3 done
+Candy-factory 7 done
+Candy-factory 6 done
+Candy-factory 2 done
+Waiting for all candy to be consumed.
+Stopping kids.
+Statistics:
+  Factory#   #Made  #Eaten  Min Delay[ms]  Avg Delay[ms]  Max Delay[ms]
+         0       3       3        5.31201     7017.16016    12019.81348
+         1       3       3     2003.78979     7345.24154    12020.60742
+         2       3       3     4005.39429     8349.90373    12023.95288
+         3       4       4        1.13232     6763.65216    12021.69019
+         4       4       4     1002.84888     8015.57605    12021.18872
+         5       3       3     6007.49194     8679.70947    12021.52612
+         6       2       2        0.31665     7514.97571    15029.63477
+         7       6       6     4005.44580     7178.48071    12021.47949
+         8       3       3        0.98389     7013.60392    12020.75513
+         9       3       3     3003.80469     6678.18441    11022.49292
+==26313== 
+==26313== HEAP SUMMARY:
+==26313==     in use at exit: 1,614 bytes in 4 blocks
+==26313==   total heap usage: 51 allocs, 47 frees, 8,694 bytes allocated
+==26313== 
+==26313== 36 bytes in 1 blocks are still reachable in loss record 1 of 4
+==26313==    at 0x4C2ABA0: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==26313==    by 0x4009123: local_strdup (dl-load.c:162)
+==26313==    by 0x4009123: _dl_map_object (dl-load.c:2509)
+==26313==    by 0x4014A43: dl_open_worker (dl-open.c:235)
+==26313==    by 0x400FFF3: _dl_catch_error (dl-error.c:187)
+==26313==    by 0x40143AA: _dl_open (dl-open.c:661)
+==26313==    by 0x518AFF1: do_dlopen (dl-libc.c:87)
+==26313==    by 0x400FFF3: _dl_catch_error (dl-error.c:187)
+==26313==    by 0x518B0B1: dlerror_run (dl-libc.c:46)
+==26313==    by 0x518B0B1: __libc_dlopen_mode (dl-libc.c:163)
+==26313==    by 0x4E473A2: pthread_cancel_init (unwind-forcedunwind.c:52)
+==26313==    by 0x4E4756B: _Unwind_ForcedUnwind (unwind-forcedunwind.c:129)
+==26313==    by 0x4E458EF: __pthread_unwind (unwind.c:129)
+==26313==    by 0x4E40454: __do_cancel (pthreadP.h:280)
+==26313==    by 0x4E40454: pthread_exit (pthread_exit.c:29)
+==26313==    by 0x400DF5: factory_thread (candykids.c:79)
+==26313==    by 0x4E3F0A4: start_thread (pthread_create.c:309)
+==26313==    by 0x514F84C: clone (clone.S:111)
+==26313== 
+==26313== 36 bytes in 1 blocks are still reachable in loss record 2 of 4
+==26313==    at 0x4C2ABA0: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==26313==    by 0x400BDC3: _dl_new_object (dl-object.c:165)
+==26313==    by 0x4006764: _dl_map_object_from_fd (dl-load.c:1059)
+==26313==    by 0x4008DFF: _dl_map_object (dl-load.c:2605)
+==26313==    by 0x4014A43: dl_open_worker (dl-open.c:235)
+==26313==    by 0x400FFF3: _dl_catch_error (dl-error.c:187)
+==26313==    by 0x40143AA: _dl_open (dl-open.c:661)
+==26313==    by 0x518AFF1: do_dlopen (dl-libc.c:87)
+==26313==    by 0x400FFF3: _dl_catch_error (dl-error.c:187)
+==26313==    by 0x518B0B1: dlerror_run (dl-libc.c:46)
+==26313==    by 0x518B0B1: __libc_dlopen_mode (dl-libc.c:163)
+==26313==    by 0x4E473A2: pthread_cancel_init (unwind-forcedunwind.c:52)
+==26313==    by 0x4E4756B: _Unwind_ForcedUnwind (unwind-forcedunwind.c:129)
+==26313==    by 0x4E458EF: __pthread_unwind (unwind.c:129)
+==26313==    by 0x4E40454: __do_cancel (pthreadP.h:280)
+==26313==    by 0x4E40454: pthread_exit (pthread_exit.c:29)
+==26313==    by 0x400DF5: factory_thread (candykids.c:79)
+==26313==    by 0x4E3F0A4: start_thread (pthread_create.c:309)
+==26313==    by 0x514F84C: clone (clone.S:111)
+==26313== 
+==26313== 360 bytes in 1 blocks are still reachable in loss record 3 of 4
+==26313==    at 0x4C2CC90: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==26313==    by 0x40118A2: _dl_check_map_versions (dl-version.c:293)
+==26313==    by 0x4014F12: dl_open_worker (dl-open.c:278)
+==26313==    by 0x400FFF3: _dl_catch_error (dl-error.c:187)
+==26313==    by 0x40143AA: _dl_open (dl-open.c:661)
+==26313==    by 0x518AFF1: do_dlopen (dl-libc.c:87)
+==26313==    by 0x400FFF3: _dl_catch_error (dl-error.c:187)
+==26313==    by 0x518B0B1: dlerror_run (dl-libc.c:46)
+==26313==    by 0x518B0B1: __libc_dlopen_mode (dl-libc.c:163)
+==26313==    by 0x4E473A2: pthread_cancel_init (unwind-forcedunwind.c:52)
+==26313==    by 0x4E4756B: _Unwind_ForcedUnwind (unwind-forcedunwind.c:129)
+==26313==    by 0x4E458EF: __pthread_unwind (unwind.c:129)
+==26313==    by 0x4E40454: __do_cancel (pthreadP.h:280)
+==26313==    by 0x4E40454: pthread_exit (pthread_exit.c:29)
+==26313==    by 0x400DF5: factory_thread (candykids.c:79)
+==26313==    by 0x4E3F0A4: start_thread (pthread_create.c:309)
+==26313==    by 0x514F84C: clone (clone.S:111)
+==26313== 
+==26313== 1,182 bytes in 1 blocks are still reachable in loss record 4 of 4
+==26313==    at 0x4C2CC90: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==26313==    by 0x400BB23: _dl_new_object (dl-object.c:75)
+==26313==    by 0x4006764: _dl_map_object_from_fd (dl-load.c:1059)
+==26313==    by 0x4008DFF: _dl_map_object (dl-load.c:2605)
+==26313==    by 0x4014A43: dl_open_worker (dl-open.c:235)
+==26313==    by 0x400FFF3: _dl_catch_error (dl-error.c:187)
+==26313==    by 0x40143AA: _dl_open (dl-open.c:661)
+==26313==    by 0x518AFF1: do_dlopen (dl-libc.c:87)
+==26313==    by 0x400FFF3: _dl_catch_error (dl-error.c:187)
+==26313==    by 0x518B0B1: dlerror_run (dl-libc.c:46)
+==26313==    by 0x518B0B1: __libc_dlopen_mode (dl-libc.c:163)
+==26313==    by 0x4E473A2: pthread_cancel_init (unwind-forcedunwind.c:52)
+==26313==    by 0x4E4756B: _Unwind_ForcedUnwind (unwind-forcedunwind.c:129)
+==26313==    by 0x4E458EF: __pthread_unwind (unwind.c:129)
+==26313==    by 0x4E40454: __do_cancel (pthreadP.h:280)
+==26313==    by 0x4E40454: pthread_exit (pthread_exit.c:29)
+==26313==    by 0x400DF5: factory_thread (candykids.c:79)
+==26313==    by 0x4E3F0A4: start_thread (pthread_create.c:309)
+==26313==    by 0x514F84C: clone (clone.S:111)
+==26313== 
+==26313== LEAK SUMMARY:
+==26313==    definitely lost: 0 bytes in 0 blocks
+==26313==    indirectly lost: 0 bytes in 0 blocks
+==26313==      possibly lost: 0 bytes in 0 blocks
+==26313==    still reachable: 1,614 bytes in 4 blocks
+==26313==         suppressed: 0 bytes in 0 blocks
+==26313== 
+==26313== For counts of detected and suppressed errors, rerun with: -v
+==26313== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

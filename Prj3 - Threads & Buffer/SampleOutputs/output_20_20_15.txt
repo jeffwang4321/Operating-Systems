@@ -1,0 +1,277 @@
+	Factory 0 ship candy & wait 3s
+	Factory 1 ship candy & wait 3s
+	Factory 2 ship candy & wait 3s
+	Factory 3 ship candy & wait 1s
+	Factory 4 ship candy & wait 0s
+	Factory 5 ship candy & wait 1s
+	Factory 4 ship candy & wait 2s
+	Factory 6 ship candy & wait 1s
+	Factory 7 ship candy & wait 2s
+	Factory 8 ship candy & wait 0s
+	Factory 9 ship candy & wait 3s
+	Factory 8 ship candy & wait 3s
+	Factory 10 ship candy & wait 2s
+	Factory 11 ship candy & wait 2s
+	Factory 12 ship candy & wait 0s
+	Factory 13 ship candy & wait 3s
+	Factory 14 ship candy & wait 3s
+	Factory 15 ship candy & wait 1s
+	Factory 16 ship candy & wait 1s
+	Factory 17 ship candy & wait 3s
+	Factory 18 ship candy & wait 2s
+	Factory 19 ship candy & wait 1s
+	Factory 12 ship candy & wait 1s
+Time  0s:
+	Factory 3 ship candy & wait 3s
+	Factory 5 ship candy & wait 2s
+	Factory 6 ship candy & wait 2s
+	Factory 19 ship candy & wait 1s
+	Factory 15 ship candy & wait 1s
+	Factory 12 ship candy & wait 3s
+	Factory 16 ship candy & wait 3s
+Time  1s:
+	Factory 4 ship candy & wait 0s
+	Factory 4 ship candy & wait 2s
+	Factory 7 ship candy & wait 0s
+	Factory 7 ship candy & wait 0s
+	Factory 7 ship candy & wait 0s
+	Factory 7 ship candy & wait 3s
+	Factory 11 ship candy & wait 2s
+	Factory 10 ship candy & wait 2s
+	Factory 18 ship candy & wait 3s
+	Factory 15 ship candy & wait 3s
+	Factory 19 ship candy & wait 3s
+Time  2s:
+	Factory 2 ship candy & wait 1s
+	Factory 0 ship candy & wait 0s
+	Factory 0 ship candy & wait 2s
+	Factory 1 ship candy & wait 1s
+	Factory 5 ship candy & wait 3s
+	Factory 6 ship candy & wait 3s
+	Factory 8 ship candy & wait 1s
+	Factory 9 ship candy & wait 0s
+	Factory 14 ship candy & wait 1s
+	Factory 9 ship candy & wait 3s
+	Factory 13 ship candy & wait 3s
+	Factory 17 ship candy & wait 1s
+Time  3s:
+	Factory 2 ship candy & wait 2s
+	Factory 1 ship candy & wait 1s
+	Factory 3 ship candy & wait 2s
+	Factory 4 ship candy & wait 3s
+	Factory 8 ship candy & wait 3s
+	Factory 12 ship candy & wait 0s
+	Factory 12 ship candy & wait 2s
+	Factory 16 ship candy & wait 3s
+	Factory 10 ship candy & wait 1s
+	Factory 11 ship candy & wait 3s
+	Factory 14 ship candy & wait 2s
+	Factory 17 ship candy & wait 1s
+Time  4s:
+	Factory 0 ship candy & wait 2s
+	Factory 1 ship candy & wait 1s
+	Factory 7 ship candy & wait 1s
+	Factory 18 ship candy & wait 1s
+	Factory 15 ship candy & wait 0s
+	Factory 17 ship candy & wait 1s
+	Factory 10 ship candy & wait 1s
+	Factory 15 ship candy & wait 2s
+	Factory 19 ship candy & wait 0s
+	Factory 19 ship candy & wait 1s
+Time  5s:
+	Factory 2 ship candy & wait 3s
+	Factory 1 ship candy & wait 3s
+	Factory 3 ship candy & wait 0s
+	Factory 3 ship candy & wait 1s
+	Factory 5 ship candy & wait 0s
+	Factory 5 ship candy & wait 0s
+	Factory 5 ship candy & wait 3s
+	Factory 6 ship candy & wait 0s
+	Factory 7 ship candy & wait 1s
+	Factory 6 ship candy & wait 1s
+	Factory 9 ship candy & wait 2s
+	Factory 12 ship candy & wait 1s
+	Factory 13 ship candy & wait 0s
+	Factory 18 ship candy & wait 2s
+	Factory 13 ship candy & wait 1s
+	Factory 14 ship candy & wait 2s
+	Factory 10 ship candy & wait 2s
+	Factory 17 ship candy & wait 0s
+	Factory 17 ship candy & wait 0s
+	Factory 17 ship candy & wait 0s
+	Factory 17 ship candy & wait 2s
+	Factory 19 ship candy & wait 0s
+	Factory 19 ship candy & wait 1s
+Time  6s:
+	Factory 0 ship candy & wait 1s
+	Factory 4 ship candy & wait 0s
+	Factory 4 ship candy & wait 2s
+	Factory 3 ship candy & wait 3s
+	Factory 7 ship candy & wait 1s
+	Factory 6 ship candy & wait 1s
+	Factory 8 ship candy & wait 0s
+	Factory 8 ship candy & wait 1s
+	Factory 16 ship candy & wait 0s
+	Factory 11 ship candy & wait 3s
+	Factory 16 ship candy & wait 2s
+	Factory 12 ship candy & wait 2s
+	Factory 15 ship candy & wait 3s
+	Factory 13 ship candy & wait 2s
+	Factory 19 ship candy & wait 1s
+Time  7s:
+	Factory 0 ship candy & wait 0s
+	Factory 0 ship candy & wait 1s
+	Factory 6 ship candy & wait 3s
+	Factory 7 ship candy & wait 3s
+	Factory 8 ship candy & wait 2s
+	Factory 9 ship candy & wait 0s
+	Factory 18 ship candy & wait 3s
+	Factory 17 ship candy & wait 1s
+	Factory 14 ship candy & wait 0s
+	Factory 14 ship candy & wait 0s
+	Factory 10 ship candy & wait 3s
+	Factory 14 ship candy & wait 1s
+	Factory 19 ship candy & wait 3s
+	Factory 9 ship candy & wait 0s
+	Factory 9 ship candy & wait 0s
+	Factory 9 ship candy & wait 3s
+Time  8s:
+	Factory 2 ship candy & wait 0s
+	Factory 2 ship candy & wait 3s
+	Factory 1 ship candy & wait 2s
+	Factory 4 ship candy & wait 2s
+	Factory 5 ship candy & wait 2s
+	Factory 0 ship candy & wait 3s
+	Factory 16 ship candy & wait 2s
+	Factory 12 ship candy & wait 3s
+	Factory 14 ship candy & wait 3s
+	Factory 13 ship candy & wait 3s
+	Factory 17 ship candy & wait 3s
+Time  9s:
+	Factory 3 ship candy & wait 2s
+	Factory 11 ship candy & wait 1s
+	Factory 8 ship candy & wait 1s
+	Factory 15 ship candy & wait 3s
+Time 10s:
+	Factory 1 ship candy & wait 0s
+	Factory 1 ship candy & wait 3s
+	Factory 4 ship candy & wait 3s
+	Factory 5 ship candy & wait 1s
+	Factory 6 ship candy & wait 1s
+	Factory 16 ship candy & wait 0s
+	Factory 7 ship candy & wait 0s
+	Factory 16 ship candy & wait 0s
+	Factory 7 ship candy & wait 2s
+	Factory 16 ship candy & wait 3s
+	Factory 11 ship candy & wait 0s
+	Factory 11 ship candy & wait 0s
+	Factory 11 ship candy & wait 2s
+	Factory 8 ship candy & wait 1s
+	Factory 18 ship candy & wait 0s
+	Factory 18 ship candy & wait 1s
+	Factory 10 ship candy & wait 0s
+	Factory 10 ship candy & wait 1s
+	Factory 9 ship candy & wait 1s
+	Factory 19 ship candy & wait 1s
+Time 11s:
+	Factory 2 ship candy & wait 2s
+	Factory 0 ship candy & wait 1s
+	Factory 3 ship candy & wait 3s
+	Factory 5 ship candy & wait 2s
+	Factory 6 ship candy & wait 1s
+	Factory 8 ship candy & wait 0s
+	Factory 8 ship candy & wait 3s
+	Factory 12 ship candy & wait 0s
+	Factory 12 ship candy & wait 1s
+	Factory 14 ship candy & wait 3s
+	Factory 13 ship candy & wait 1s
+	Factory 17 ship candy & wait 3s
+	Factory 9 ship candy & wait 2s
+	Factory 10 ship candy & wait 3s
+	Factory 18 ship candy & wait 0s
+	Factory 18 ship candy & wait 3s
+	Factory 19 ship candy & wait 0s
+	Factory 19 ship candy & wait 2s
+Time 12s:
+	Factory 0 ship candy & wait 1s
+	Factory 6 ship candy & wait 0s
+	Factory 11 ship candy & wait 2s
+	Factory 6 ship candy & wait 0s
+	Factory 6 ship candy & wait 0s
+	Factory 6 ship candy & wait 2s
+	Factory 15 ship candy & wait 3s
+	Factory 7 ship candy & wait 1s
+	Factory 12 ship candy & wait 0s
+	Factory 12 ship candy & wait 2s
+	Factory 13 ship candy & wait 1s
+Time 13s:
+	Factory 2 ship candy & wait 2s
+	Factory 1 ship candy & wait 3s
+	Factory 4 ship candy & wait 0s
+	Factory 4 ship candy & wait 3s
+	Factory 0 ship candy & wait 3s
+	Factory 5 ship candy & wait 2s
+	Factory 16 ship candy & wait 2s
+	Factory 7 ship candy & wait 3s
+	Factory 19 ship candy & wait 2s
+	Factory 9 ship candy & wait 2s
+	Factory 13 ship candy & wait 0s
+	Factory 13 ship candy & wait 1s
+Time 14s:
+	Factory 3 ship candy & wait 3s
+	Factory 8 ship candy & wait 0s
+	Factory 8 ship candy & wait 0s
+	Factory 8 ship candy & wait 1s
+	Factory 6 ship candy & wait 3s
+	Factory 14 ship candy & wait 3s
+	Factory 11 ship candy & wait 1s
+	Factory 10 ship candy & wait 0s
+	Factory 18 ship candy & wait 2s
+	Factory 10 ship candy & wait 1s
+	Factory 17 ship candy & wait 2s
+	Factory 12 ship candy & wait 3s
+	Factory 13 ship candy & wait 3s
+Stopping candy factories...
+Candy-factory 2 done
+Candy-factory 5 done
+Candy-factory 16 done
+Candy-factory 15 done
+Candy-factory 8 done
+Candy-factory 10 done
+Candy-factory 11 done
+Candy-factory 19 done
+Candy-factory 9 done
+Candy-factory 1 done
+Candy-factory 4 done
+Candy-factory 0 done
+Candy-factory 7 done
+Candy-factory 18 done
+Candy-factory 17 done
+Candy-factory 3 done
+Candy-factory 14 done
+Candy-factory 6 done
+Candy-factory 12 done
+Candy-factory 13 done
+Stopping kids.
+Statistics:
+  Factory#   #Made  #Eaten  Min Delay[ms]  Avg Delay[ms]  Max Delay[ms]
+         0      11      11        0.00537        0.47239        4.98682
+         1       9       9        0.00391        0.62869        5.46851
+         2       8       8        0.00439        0.74139        5.64209
+         3       9       9        0.00415        0.60064        5.27466
+         4      11      11        0.00366        0.93215        5.07153
+         5      10      10        0.00464        0.52781        5.01270
+         6      14      14        0.00488        0.26946        3.26440
+         7      13      13        0.00659        0.28540        3.25073
+         8      14      14        0.01147        0.46193        3.03516
+         9      11      11        0.01196        0.35025        3.33594
+        10      11      11        0.00537        0.30819        2.81689
+        11      10      10        0.00537        0.34443        3.18140
+        12      13      13        0.00244        0.28311        2.67163
+        13      11      11        0.00342        0.21389        1.76611
+        14      10      10        0.00391        0.24343        1.71338
+        15       8       8        0.00513        0.27786        2.01733
+        16      10      10        0.01050        0.19548        1.56567
+        17      12      12        0.00415        0.21891        2.07568
+        18      10      10        0.00977        0.18586        1.40894
+        19      13      13        0.00732        0.16380        1.88525

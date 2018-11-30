@@ -1,0 +1,23 @@
+Time  0s:
+	Factory 0 ship candy & wait 2s
+Time  1s:
+Time  2s:
+	Factory 0 ship candy & wait 2s
+Time  3s:
+	Factory 0 ship candy & wait 1s
+Time  4s:
+	Factory 0 ship candy & wait 0s
+	Factory 0 ship candy & wait 2s
+Time  5s:
+Time  6s:
+	Factory 0 ship candy & wait 3s
+Time  7s:
+Time  8s:
+Time  9s:
+	Factory 0 ship candy & wait 1s
+Stopping candy factories...
+Candy-factory 0 done
+Stopping kids.
+Statistics:
+  Factory#   #Made  #Eaten  Min Delay[ms]  Avg Delay[ms]  Max Delay[ms]
+         0       7       7        0.00977      143.01081     1000.98340

@@ -1,0 +1,77 @@
+	Factory 0 ship candy & wait 3s
+	Factory 1 ship candy & wait 0s
+	Factory 2 ship candy & wait 1s
+	Factory 1 ship candy & wait 1s
+	Factory 3 ship candy & wait 3s
+	Factory 4 ship candy & wait 2s
+	Factory 5 ship candy & wait 2s
+	Factory 6 ship candy & wait 0s
+	Factory 6 ship candy & wait 2s
+	Factory 7 ship candy & wait 1s
+	Factory 8 ship candy & wait 2s
+	Factory 9 ship candy & wait 2s
+Time  0s:
+	Factory 1 ship candy & wait 1s
+	Factory 2 ship candy & wait 0s
+Time  1s:
+	Factory 7 ship candy & wait 1s
+	Factory 2 ship candy & wait 3s
+	Factory 5 ship candy & wait 2s
+	Factory 6 ship candy & wait 0s
+	Factory 4 ship candy & wait 1s
+	Factory 9 ship candy & wait 0s
+	Factory 1 ship candy & wait 2s
+	Factory 8 ship candy & wait 1s
+	Factory 7 ship candy & wait 3s
+Time  2s:
+	Factory 6 ship candy & wait 1s
+	Factory 0 ship candy & wait 2s
+	Factory 3 ship candy & wait 3s
+Time  3s:
+	Factory 5 ship candy & wait 1s
+Time  4s:
+	Factory 9 ship candy & wait 1s
+	Factory 4 ship candy & wait 1s
+	Factory 7 ship candy & wait 3s
+Time  5s:
+Time  6s:
+	Factory 1 ship candy & wait 3s
+	Factory 8 ship candy & wait 0s
+Time  7s:
+Time  8s:
+	Factory 5 ship candy & wait 1s
+	Factory 6 ship candy & wait 3s
+	Factory 2 ship candy & wait 2s
+	Factory 0 ship candy & wait 2s
+	Factory 4 ship candy & wait 1s
+Time  9s:
+	Factory 8 ship candy & wait 1s
+	Factory 3 ship candy & wait 1s
+	Factory 4 ship candy & wait 1s
+	Factory 5 ship candy & wait 2s
+Stopping candy factories...
+Candy-factory 9 done
+Candy-factory 6 done
+Candy-factory 2 done
+Candy-factory 0 done
+Candy-factory 8 done
+Candy-factory 1 done
+Candy-factory 4 done
+Candy-factory 3 done
+Candy-factory 7 done
+Candy-factory 5 done
+Waiting for all candy to be consumed.
+Waiting for all candy to be consumed.
+Stopping kids.
+Statistics:
+  Factory#   #Made  #Eaten  Min Delay[ms]  Avg Delay[ms]  Max Delay[ms]
+         0       3       3        1.05542     3338.52360     6009.34961
+         1       5       5        0.94580     3404.75322     7008.39624
+         2       4       4     1001.76245     4505.88483     8008.38623
+         3       3       3     1001.22998     4005.98218     7010.32642
+         4       5       5     2002.12915     4404.85181     7007.36035
+         5       5       5     2002.10596     4205.02129     5007.31079
+         6       5       5     2002.04736     4004.59912     7007.42334
+         7       4       4     4004.07861     5756.75220     8011.38940
+         8       4       4     5004.38965     5756.03387     7008.40234
+         9       3       3     5004.98340     7007.59253     9009.40210
