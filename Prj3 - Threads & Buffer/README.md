@@ -4,8 +4,7 @@ Created a producer-consumer operator to manage access to a bounded buffer storin
 which generate candy one at a time and insert the candy into the bounded buffer. Another group of threads will model kids which eat 
 candy one a time from the bounded buffer.
 
-Created a bounded buffer module which encapsulates access to the bounded buffer. This buffer operates on void* pointers
-instead of directly with candy_t structures. This is done so that the buffer does not need to know about the type of information it is storing
+Created a bounded buffer module which encapsulates access to the bounded buffer. This buffer operates on void* pointers instead of directly with candy_t structures. This is done so that the buffer does not need to know about the type of information it is storing
 
 **Candy-Factory thread functions:**
 1. Dynamically allocate a new candy item and populate its fields
@@ -20,7 +19,7 @@ Thread Signaling is done by the main() to end the thread. This is not using Linu
 2. Process the item (for the statistics module that will track what candies have been eaten, and at what time interval)
 3. Sleep (the kid threads are canceled from main() using pthread_cancel(). When this occurs, the kid thread will be waiting on the semaphore in the bounded buffer)
 
-**Created a statistics module tracking to displaying stats summary:**
+**Created a statistics tracking module to displaying stats summary:**
 1. Count the number of candies each factory creates. Called from the candy-factory thread.
 2. Count the number of candies that were consumed from each factory.
 3. For each factory, the min, max, and average delays for how long it took from the moment the candy was
