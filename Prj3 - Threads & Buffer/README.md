@@ -5,8 +5,7 @@ which generate candy one at a time and insert the candy into the bounded buffer.
 candy one a time from the bounded buffer.
 
 Created a bounded buffer module which encapsulates access to the bounded buffer. This buffer operates on void* pointers
-instead of directly with candy_t structures. This is done so that the buffer need not know anything about the type
-of information it is storing
+instead of directly with candy_t structures. This is done so that the buffer does not need to know about the type of information it is storing
 
 Candy-Factory thread functions:
 1. Dynamically allocate a new candy item and populate its fields
