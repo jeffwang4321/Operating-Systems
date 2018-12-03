@@ -1,7 +1,7 @@
 # Multithreading and Bounded Buffers
 
 Created a producer-consumer operator to manage access to a bounded buffer storing candy. One group of threads model candy factories 
-which generate candy one at a time and insert the candy into the bounded buffer. Another group of threads will model kids which eat 
+which generate candy one at a time and insert the candy into the bounded buffer. Another group of threads model kids which eat 
 candy one a time from the bounded buffer.
 
 Created a bounded buffer module which encapsulates access to the bounded buffer. This buffer operates on void* pointers instead of directly with candy_t structures. This is done so that the buffer does not need to know about the type of information it is storing
