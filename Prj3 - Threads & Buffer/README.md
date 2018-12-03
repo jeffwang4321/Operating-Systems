@@ -25,11 +25,4 @@ Created a statistics module tracking to displaying stats summary:
 1. Count the number of candies each factory creates. Called from the candy-factory thread.
 2. Count the number of candies that were consumed from each factory.
 3. For each factory, the min, max, and average delays for how long it took from the moment the candy was
-produced (dynamically allocated) until consumed (eaten by the kid). Done by the factory
-thread calling the stats code when a candy is created, and the kid thread calling the stats code when an
-item is consumed
-
-valgrind will be used to check for memory leaks. Don't worry if valgrind reports "still accessible" memory
-which was allocated from any function called from pthread_exit(); you may get a few such warnings. But all
-memory that you allocate must be freed and not be"still accessible". You can run valgrind with the
-following command
+produced (dynamically allocated) until consumed. Done by the factory thread calling the stats code when a candy is created, and the kid thread calling the stats code when an item is consumed
