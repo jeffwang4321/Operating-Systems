@@ -1,7 +1,7 @@
 #  Memory Allocator
 Designed a contiguous memory allocator library that supports different allocation techniques. The allocator will be used as a library that exposes interface to allocate, deallocate and manage memory. The allocator needs to know the total size of memory assumed in this project and the memory allocation algorithm to be used. 
 
-The **_size** variable indicates the contiguous memory chunk size that is assumed for the rest of the program. Any requests for allocation and deallocation requests will be served from this contiguous chunk. This memory chunk is allocated using **malloc()** function. The *allocation_algorithm* is an enum variable which will determine the algorithm used for allocation in the rest of the program:
+The **_size** variable indicates the contiguous memory chunk size that is assumed for the rest of the program. Any requests for allocation and deallocation requests will be served from this contiguous chunk. This memory chunk is allocated using **malloc()** function. The **allocation_algorithm** is an enum variable which will determine the algorithm used for allocation in the rest of the program:
 
 - FIRST_FIT - satisfies the allocation request from the first available memory block (from left) that is at least as large as the requested size. 
 - BEST_FIT - satisfies the allocation request from the available memory block that at least as large as the requested size and that results in the smallest remainder fragment.
